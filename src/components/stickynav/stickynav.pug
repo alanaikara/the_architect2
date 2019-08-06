@@ -1,22 +1,23 @@
-nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top
-  a.navbar-brand(href='#') Navbar
-  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+  a.navbar-brand(href='#') 
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNavDropdown', aria-controls='navbarNavDropdown', aria-expanded='false', aria-label='Toggle navigation')
     span.navbar-toggler-icon
-  #navbarSupportedContent.collapse.navbar-collapse
-    ul.navbar-nav.mr-auto
-      li.nav-item.active
-        a.nav-link(href='#')
-          | Home 
-          span.sr-only (current)
-      li.nav-item
-        a.nav-link(href='#') Link
-      li.nav-item.dropdown
-        a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-          | Dropdown
-        .dropdown-menu(aria-labelledby='navbarDropdown')
-          a.dropdown-item(href='#') Action
-          a.dropdown-item(href='#') Another action
-          .dropdown-divider
-          a.dropdown-item(href='#') Something else here
-      li.nav-item
-        a.nav-link.disabled(href='#', tabindex='-1', aria-disabled='true') Disabled
+  #navbarNavDropdown.collapse.navbar-collapse
+    ul.navbar-nav
+      li.nav-item.dropdown.active
+        a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          | Other sites: Individual investors
+        .dropdown-menu(aria-labelledby='navbarDropdownMenu')
+          H1 HELLO
+    ul.nav.navbar-nav.ml-auto.w-100.justify-content-end.right
+      li.nav-item.active.span.border.border-white
+        a.nav-link(href='#') Contact us
+        |
+        |
+      li.nav-item.active.span.border.border-white
+        a.nav-link(href='#') Preference
+        |
+        |
+      li.nav-item.active.span.border.border-white.login
+        a.nav-link(href='#') Login
