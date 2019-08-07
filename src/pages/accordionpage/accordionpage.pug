@@ -8,9 +8,17 @@ block pageTitle
 
 block content
     .container-fullwidth
-        h2 This is the accordion page !!
+        include ../../components/stickynav/stickynav.pug
         include ../../components/bignav/bignav.pug
-        include ../../components/accordion/accordion.pug
+        include ../../components/breadcrumb/breadcrumb.pug
+        include ../../components/hero/hero.pug
+        include ../../components/sticky/sticky.pug
+        include ../../components/carousel/carousel.pug
+        include ../../components/plan/plan.pug
 
+        
+
+        //include ../../components/accordion/accordion.pug
 block pageScripts
     script(src="accordionpage.js")
+    script(src="carousel.js")
