@@ -1,60 +1,73 @@
- .sticky-top{ 
-    .first{ 
-        //height: auto;
-        background: #00AEAA; 
-    }
-    .first:hover{
-        background:rgb(54, 138, 136);
-    }
-    .second{ 
-    max-height: 135px;
-    //height: auto;
-    background: #00294B; 
-    }
-    .second:hover{
-        background: rgb(11, 28, 43);
-    }
-    .third{ 
-    max-height: 135px;
-    //height: auto;
+
+/* Demo backgrounds and styling*/
+
+.stickyy{
+a.nav-link {
+    height: 100%;
+    padding: 30px;
+    color: #fff;
+    text-align: left;
+    font-family: Avenir Next LT W01 Demi,Arial,sans-serif;
+    font-size: 16px;
+}
+.span{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container{
+      background: white;
+      height: 121px;
+  }
+  .first {
+    background: #00AEAA; 
+    color: #fff;
+  }
+  
+  .second {
+    background: #00294B;
+  }
+  
+  .third {
     background: #0099E2;
-    }
-    .third:hover{
-        background: rgb(0, 130, 190);
-    }
-    .disabled{
-        background: white;
-        height: 125px;
-    }
-
-    .col {
-        padding: 0px 0px 0px 0px !important;
-    }
-    .a{
-        font-family: Avenir Next LT W01 Demi,Arial,sans-serif;
-    }
-
-    .title{
-        font-size: 18px;
-        font-weight: bold;
-        color: #fff;
-    }
-
-    .subtitle{
-        font-size: 13px;
-        color: #fff;
-    }
-    .new{
-        text-align: center;
-    }
-}
-
-@media (min-width: 900px) {
-    .bar{
-    margin: 0px 62px 0px 62px;
-    }
-}
-.col-2{
+  }
+  .col{
     padding-left: 0!important;
     padding-right: 0;
+    display: inline-block;
+    height: 120px;
+    max-height: 125px;
+}
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1160px;
+    text-align: center;
+}
+
+@media (max-width: 1160px){
+    .container{
+        max-width:1160px;
+    }
+
+    a.nav-link {
+        height: 100%;
+        padding: 20px;
+        padding-left: 30px;
+        color: #fff;
+        text-align: center;
+        font-family: Avenir Next LT W01 Demi,Arial,sans-serif;
+        font-size: 16px;
+    }
+   
+}
+
+  
+@media (min-width: 1160px){
+    .container{
+        max-width:1920px;
+    }
+    
+    }
 }

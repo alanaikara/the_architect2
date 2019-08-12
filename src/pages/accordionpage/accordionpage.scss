@@ -1,7 +1,9 @@
 /*!
  * import bootstrap 4
  */
-
+ body {
+    position: relative;
+  }
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../components/accordion/accordion.scss";
 @import "../../components/stickynav/stickynav.scss";
@@ -11,4 +13,5 @@
 @import "../../components/sticky/sticky.scss";
 @import "../../components/carousel/carousel.scss";
 @import "../../components/plan/plan.scss";
+@import "../../components/choose/choose.scss";
 

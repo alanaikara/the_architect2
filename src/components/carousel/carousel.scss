@@ -1,53 +1,97 @@
-.showmob{
-    display: none;
-}
-.carousel-indicators 
-{
-    position: relative;
-    li{
-        text-indent:0;
-        width:200px;
-        height: 40px;
-        background-color: transparent;
-        a{
-            color: black;
-            font-size:1.33rem;
-            text-decoration: none;
+.slider{
+
+    .carousel-indicators 
+    {   max-width: 1130px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        position: relative;
+        li{
+            text-indent:0;
+            width:200px;
+            height: 40px;
+            background-color: transparent;
+            a{
+                color: black;
+                font-size:1.33rem;
+                text-decoration: none;
+            }
+            a:hover{
+                border-bottom: 4px solid #b42573;
+            }
+            
         }
-        a:hover{
-            border-bottom: 4px solid #b42573;
+        .active{
+            a{
+                font-weight: bold;
+                border-bottom: 4px solid #b42573;
+            }
         }
-        
     }
-    .active{
-        a{
-            font-weight: bold;
-            border-bottom: 4px solid #b42573;
+    .carousel-inner{
+
+        .carousel-item.active{
+            max-width: 1160px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            article{
+                max-width: 490px;
+                h1 {
+                    font-size: 2rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+                h3 {
+                    font-size: 1.6rem;
+                }
+                a{
+                    color: #0099E2;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
         }
     }
+
+    .mobile{
+            ul{
+                padding-left: 0;
+                text-align: center;
+                li{
+                    text-align: center;
+                    h1{
+                        text-align: center!important;
+                        font-size: 1.7rem;
+                    }
+                    img{
+                        width: 80%;}
+                    h3{
+                        font-size: 1.2rem;
+                    }
+                    a{
+                        color: #0099E2;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                    padding-top: 60px;
+                    list-style: none;
+                }
+            
+            img{
+                width: 80%;
+            }
+        }
+    }
+
 }
 
 
-article{
-    max-width: 290px;
-    h1 {
-        font-size: 2rem;
-    }
-    p {
-        font-size: 1.5rem;
-    }
-    h3 {
-        font-size: 1.6rem;
-    }
-}
 
-@media (max-width: 1000px) {
-    .hidemob{
-        display: none;
-    }
-    .showmob{
-        width: 100%;
-        display: block;
-    }
-}
+
+
+
+
     
+

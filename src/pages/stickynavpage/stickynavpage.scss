@@ -3,9 +3,17 @@
  */
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../../components/stickynav/stickynav.scss";
-@import "../../components/bignav/bignav.scss";
+@import "../../components/plan/plan.scss";
+@import "../../components/footer/footer.scss";
+@import "../../components/accordion/accordion.scss";
+@import "../../components/article/article.scss";
+@import "../../components/carousel/carousel.scss";
+
+
+
 
 .forScroll {
-  height: 1000px;
+  height: 1500px;
+  background-color: bisque;
 }
+

@@ -1,0 +1,34 @@
+.accordion {
+    .card-header{
+      padding: 0!important;
+      background-color: rgb(153, 153, 153);
+      button{
+        color: white;
+      }
+    }
+    .collapse{
+      background-color: rgb(94, 93, 93);
+      ul{
+        li{
+          list-style-type: none;
+          a{
+            color: white;
+          }
+        }
+      }
+  
+    }
+      .btn.btn-link{
+          &::before {
+            content: "\25BC ";
+            font-weight: bolder;
+          }
+        }
+  
+        .btn.btn-link.collapsed{
+            &::before{
+              content: "\25BA ";
+              font-weight: bolder;
+            }
+        }
+  }

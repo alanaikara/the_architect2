@@ -1,19 +1,22 @@
-.plan
-    .container.row.art-grid.align-items.center
-        div.content.col-lg-7
-            | PLAN
-            h1 Your savings plan: Start now.
-            p You can do this. We make it simple to figure out what,when and how much to save.
-            h4 Let’s do the math.
-            div
-                div.col-6.d-flex
-                    img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/icons/icon-savings-calculator.png')
-                    p I want to see how much my savings can grow over time.
-                    a(href)
+.plan#plan
+    .container-fluid
+        .row.art-grid.align-items.right
+            .col-5.plan__content
+                article
+                    | PLAN
+                    h1 Your savings plan: Start now.
+                    p You can do this. We make it simple to figure out what,when and how much to save.
+                    h4 Let’s do the math.
+                .row    
+                    .col
+                        img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/icons/icon-savings-calculator.png')
+                        p I want to see how much my savings can grow over time.
+                        a(href="") Go to savings calculator ->
 
-                div.col-6.d-flex
-                    img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/icons/icon-savings-calculator.png')
-                    p I want to compare college costs and create a savings plan.
+                    .col
+                        img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/icons/icon-savings-calculator.png')
+                        p I want to compare college costs and create a savings plan.
+                        a(href="") Go to savings calculator ->
 
-        div.figure.col-lg-5
-            img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/father-walking-with-young-son.png')
+            .col-7.plan__figure
+                img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/father-walking-with-young-son.png')

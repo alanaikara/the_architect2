@@ -1,0 +1,131 @@
+.footer{
+
+
+    span{
+        font-weight: bold;
+    }    
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .block{
+        justify-content: center;
+        max-width: 970px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__footer1{
+      
+      background-color: #F2F2F2;  
+    
+      &__list{
+        padding-top: 26px;
+        padding-bottom: 100px;
+        padding-left: 14px;
+        ol{ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding-left: 3px;
+            li{
+            font-size: .98em;
+            color: #333333;
+            padding: 10px 0px;
+            }
+        }
+        article{
+            border-top-style: solid;
+            border-top: 2px;
+            border-color: #999999;
+            color:#666666;
+            span{
+                border-top-style: solid;
+                border-top: 2px;
+                 border-color: #999999;
+                
+                font-weight: bold;
+            }   font-size: 1.1em;
+        }
+      }
+    }
+
+    &__footer2{
+        background-color:#E5E5E5;
+        &__list{
+           
+            padding: 20px;
+            margin-left: 20px;
+            ul{
+            display:flex;
+            li{ 
+                font-size: 0.9em;
+                padding: 5px;
+                display: flex;
+            }
+        }  }
+        @media (max-width: 768px){
+
+            &__list{
+           
+                padding: 2px;
+                margin-left: 0px;
+                ul{
+                padding-left: 3px;
+                display:flex;
+                li{ 
+                    font-size: 0.7em;
+                    padding: 1px;
+                    display: flex;
+                }
+            }  }   
+        }
+    }
+
+    &__footer3{
+        background-color:#999999; 
+        &__list{
+            display: flex;
+            ul{
+                color: white;
+                font-weight: bold;
+                padding-left: 25px;
+
+                li{
+                    font-weight: inherit;
+                    a{  
+                        font-weight: 500;
+                        color:white;
+                    }
+                    a:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            ul.first{
+                padding-left: 20px;
+            }
+        }
+    }
+
+    &__footer4{
+        padding-top: 20px;
+        background-color: #E5E5E5;
+        height: 273px ;
+        &__list{
+            height: 273px ;
+            display: flex;
+
+            &__active{
+                display: flex;
+                font-size: 12px;
+               a{
+                padding: 3px;
+               }
+            }
+        }
+    }
+
+
+}
+
+
