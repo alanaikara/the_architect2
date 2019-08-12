@@ -1,15 +1,46 @@
 .plan{
 
-.container-fluid{
-    padding : 0px 20vw;
+&__cont{
+    justify-content: center;
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;  
+
+    &__content{
+        padding: 0px 16px;
+
+       article{
+           color: #999999;
+           font-weight: bold;
+           h1{
+               color: black;
+               font-size: 1.5em;
+           }
+           p{
+               color: black;
+           }
+           h4{
+               color: black;
+           }
+       }
+    }
 }
 
 
+@media (max-width: 1201px){
+img{
+    max-width: 90%; 
+}
 
-
-
-
-
-
+}
+@media (max-width: 961px){
+    article{
+        text-align: center;
+        
+    }
+    .row{
+        text-align: left;
+    }
+}
 
 }

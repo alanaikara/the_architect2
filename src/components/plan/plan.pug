@@ -1,22 +1,24 @@
-.plan#plan
-    .container-fluid
-        .row.art-grid.align-items.right
-            .col-5.plan__content
-                article
-                    | PLAN
-                    h1 Your savings plan: Start now.
-                    p You can do this. We make it simple to figure out what,when and how much to save.
-                    h4 Let’s do the math.
-                .row    
-                    .col
+
+.plan.container-fluid#plan
+    .plan__cont.row.art-grid.align-items.right
+        .plan__cont__content.col.plan__content
+            article
+                | PLAN
+                h1 Your savings plan: Start now.
+                p You can do this. We make it simple to figure out what,when and how much to save.
+                h4 Let’s do the math.
+            .row    
+                .col-6.d-flex
+                    article
                         img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/icons/icon-savings-calculator.png')
                         p I want to see how much my savings can grow over time.
                         a(href="") Go to savings calculator ->
 
-                    .col
+                .col-6.d-flex
+                    article
                         img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/icons/icon-savings-calculator.png')
                         p I want to compare college costs and create a savings plan.
                         a(href="") Go to savings calculator ->
 
-            .col-7.plan__figure
-                img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/father-walking-with-young-son.png')
+        .plan__cont__image.figure.col-lg-6.plan__figure
+            img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/infographics/father-walking-with-young-son.png')
