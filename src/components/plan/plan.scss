@@ -1,46 +1,71 @@
 .plan{
-
+    overflow: hidden;
+    padding: 14px 0px 28px;
 &__cont{
     justify-content: center;
     max-width: 1150px;
     margin-left: auto;
     margin-right: auto;  
+   &__image{
+    width: 1024px;
+    height: 445px;
+    object-fit: cover;
+   }
 
     &__content{
         padding: 0px 16px;
 
        article{
-           color: #999999;
+           color: #7f7f7f;
            font-weight: bold;
            h1{
-               color: black;
+                color: #333333;
                font-size: 1.5em;
+               margin: 0px 0px 16.8px;
            }
-           p{
-               color: black;
+           p{   color: #333333;
+               font-size: .9rem;
+               margin: 0px 0px 24px;
+               
            }
            h4{
-               color: black;
+                color: #333333;
+               font-size: .9rem;
+               margin: 0px 0px 20px;
+
            }
        }
+       &__inner{
+           p{
+               font-size: 0.7rem;
+           }
+           a{
+               color: #0099e2;
+               font-size: 0.9 rem;
+           }
+       }
+    
+       
     }
 }
 
 
 @media (max-width: 1201px){
 img{
+    text-align: center;
     max-width: 90%; 
 }
 
 }
-@media (max-width: 961px){
+@media (max-width: 1000px){
     article{
         text-align: center;
         
     }
-    .row{
-        text-align: left;
-    }
+    &__cont__content__inner{
+        article{
+           text-align: left;
+    }}
 }
 
 }

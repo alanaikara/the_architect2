@@ -10,7 +10,11 @@
         //padding-left: 12vw;
         //text-align: center;
         //display: inline-block;
-        width: 100%;
+        justify-content: center;
+        max-width: 1150px;
+        margin-left: auto;
+        margin-right: auto; 
+      
 
 
     li.nav-item{
@@ -41,5 +45,14 @@
         position: absolute;
         top: 1px;
         right: 1px;
+        input{
+            border: 0;
+            border-bottom: 1px solid black;
+        }
+        &__btn__img{
+            width: 28px;
+            height: 28px;
+        }
     }
+
 }}
