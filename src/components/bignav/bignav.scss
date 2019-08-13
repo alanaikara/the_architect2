@@ -1,26 +1,19 @@
 .bignav{
-    text-align: center;
-    justify-content: center;
+
  .navbar{
         margin: 0;
         padding: 0;
         background-color: white!important;
-        height: 92px;
-        //max-width: 1414px;
-        //padding-left: 12vw;
-        //text-align: center;
-        //display: inline-block;
-        justify-content: center;
-        max-width: 1150px;
+        max-width: 1200px;
         margin-left: auto;
-        margin-right: auto; 
+        margin-right: auto;
+        padding-left: 5px;
+        padding-right: 5px; 
       
-
-
     li.nav-item{
         padding-top: 40px;
     }
-    a.nav-link{
+   a.nav-link{
         color: black!important;
         font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
         font-weight: bold;
@@ -38,7 +31,9 @@
     a.nav-link:hover{
         background-color: #009adf;
     }
-
+    .dropdown-toggle::after{
+        display: none;
+    }
 
     
     .search{
