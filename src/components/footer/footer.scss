@@ -47,6 +47,20 @@
             }   font-size: 1.1em;
         }
       }
+      @media (max-width:768px) {
+        ol{
+            li{
+                font-size: .8rem;
+            }
+        }
+        article{
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: .9rem
+        }
+    }
+
+
     }
 
     &__footer2{
@@ -84,6 +98,9 @@
     &__footer3{
         background-color:#999999; 
         &__list{
+            padding-top: 30px;
+            max-width: 1000px;
+            margin: auto;
             display: flex;
             ul{
                 color: white;
@@ -98,6 +115,14 @@
                     }
                     a:hover{
                         text-decoration: underline;
+                    }
+                }
+                @media (max-width: 1025px){
+                    ul{
+                        font-size: .85rem;
+                        a{
+                            font-size: inherit;
+                        }
                     }
                 }
             }
@@ -115,12 +140,29 @@
             height: 273px ;
             display: flex;
 
+            &__brand{
+                li{
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+
+               
+            }
+
             &__active{
                 display: flex;
-                font-size: 12px;
+                font-size: 0.8rem;
                a{
                 padding: 3px;
                }
+            }
+        }
+        @media (max-width: 768px){
+            &__list{
+                display: block;
+                li{
+                    padding-bottom: 20px;
+                }
             }
         }
     }

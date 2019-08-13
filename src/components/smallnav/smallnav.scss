@@ -1,18 +1,74 @@
-.smallnav{
-    .navbar{
-        margin: 0;
-        padding: 0;
-        background-color: white!important;
-        height: 100px;
-        max-width: 1300px;
-        margin-left: auto;
-        margin-right: auto; 
+@media (min-width:767px){
+    .hideDesk{
+        display: none!important;
     }
+    .showDesk{
+        display: block!important;
+    }
+}
 
+@media (max-width: 767px){
+    .hideMob{
+        display: none!important;
+    }
+    .showMob{
+        display: block!important;
+    }
+}
+.hideMob{
+    background-color: black;
+}
+.nav2{
+    background-color: white!important;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;  
+    button{
+        margin-right: 15px;
+    }
+    a.nav-link{
+        color: black!important;
+        font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        //height: 50px !important;
+        //font-style: normal;
+        //font-stretch: normal;
+        //line-height: normal;
+        //letter-spacing: 1px;
+        //padding-top: 20px;
+        
+    }
+    .navbar-brand{
+        img{
+            padding-left: 15px;
+        }   
+         .dropdown-toggle::after{
+            display: none;
+        }
 
-
-
-
+    }
+    .items{
+        margin-right: 30px;
+    }
+    padding: 0;
+    #navbarTogglerDemo01{
+        text-align: end;
+        justify-content: flex-end;    
+    }
+    a {
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    li:hover {
+        background-color: #009adf;
+        color: white;
+    }
+    ul{
+        padding-top: 20px;
+    }
     .search{
         input {
             border: 0;
@@ -28,5 +84,107 @@
             }
         }
     }
+    @media (max-width:767px){
+        height: fit-content;
+        #navbarTogglerDemo01{
+            .items{
+                margin: 0;
+            }
+            text-align: center;
+            .search{
+                padding-top: 60px;
+            }    
+        }
+    }
 
+    @media (max-width:1024px) and (min-width: 767px){
+ 
+        height: 135px;
+        #navbarTogglerDemo01{
+            ul{
+                width: 100%;
+                position: absolute;
+                justify-content: space-around;
+                margin: 0;
+                left: 8px;
+                top: 65%;
+                a{
+                    font-size: .7rem;
+                }
+            }
+        }
+    }
+
+
+}
+
+.nav1 {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;  
+    background-color: black;
+    height: 32px;
+    .col-md-4,.left,ul,li,a{
+        height: inherit;
+        margin: 0;
+        padding: 0;
+    }
+    .col-md-4{
+        a{
+            padding: 10px 35px 10px 35px;
+        }
+    }
+    .left {
+        ul{
+            display:flex;
+            justify-content: flex-end;
+        }
+
+        background-color: black;
+        li{
+        width: 153px;
+        text-align: center;
+        border-left: 1px solid rgb(255, 255, 255);
+            // a{
+            //     padding: 10px 45px 10px 45px;
+            // }
+        }
+    }
+    a {
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    li:hover {
+        background-color: #009adf;
+    }
+    .login {
+        border-right: 1px solid white;
+        background-color: #009adf;
+    }
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+@media (max-width: 767px){
+    .nav1{
+        li{
+            border: 1px solid white;
+        }
+        .col-md-4{
+            text-align: center;
+            padding: 0;
+        }
+        .left{
+            ul{
+                justify-content: center;
+                li{
+                    width: 34%;
+                }
+            }
+        }
+    }
 }
