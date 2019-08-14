@@ -1,7 +1,6 @@
 .article1{
     text-align: center;
-    padding-bottom: 70px;
-    padding-top: 70px;
+    padding: 70px 15px;
     article{
         max-width: 730px;
         margin: auto;
@@ -20,8 +19,7 @@
 
 .article2{
     text-align: center;
-    padding-bottom: 110px;
-    padding-top: 110px;
+    padding: 100px 50px;
     article{
         max-width: 930px;
         margin: auto;
@@ -46,12 +44,13 @@
 
 @media (max-width: 1000px) {
     .article2{
+        padding: 15px 17px;
             article{
                 h1{
-                    font-size: 1.6rem;
+                    font-size: 1.4rem;
                 }
                 p{
-                    font-size: 1.2rem;
+                    font-size: 1.1rem;
                 }
                 a{
                     font-size: 1rem;
@@ -60,12 +59,13 @@
         }
 
         .article1{
+            padding: 15px 17px;
             article{
                 h1{
-                    font-size: 1.6rem;
+                    font-size: 1.4rem;
                 }
                 p{
-                    font-size: 1.2rem;
+                    font-size: 1.1rem;
                 }
             }
         }

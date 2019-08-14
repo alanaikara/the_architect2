@@ -17,8 +17,10 @@ a.nav-link {
 }
 
 .container{
-      background: white;
-      height: 121px;
+    padding: 0px;
+    background: white;
+    height: 110px;
+    max-height: 110px;
   }
   .first {
     background: #00AEAA; 
@@ -36,8 +38,8 @@ a.nav-link {
     padding-left: 0!important;
     padding-right: 0;
     display: inline-block;
-    height: 120px;
-    max-height: 125px;
+    height: 110px;
+    max-height: 110px;
 }
 .row{
     margin-left: auto;
@@ -62,12 +64,20 @@ a.nav-link {
     }
    
 }
+@media (max-width: 560px){
+    a.nav-link {
+        padding-top: 40px;
+    }
 
-  
+
+
+}
 @media (min-width: 1160px){
     .container{
         max-width:100%;
     }
+    a.nav-link {
+        font-size: 22px;
     
     }
-}
+}}

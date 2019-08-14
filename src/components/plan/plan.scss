@@ -48,7 +48,7 @@
        
     }
 }
-
+ 
 
 @media (max-width: 1201px){
 img{
@@ -66,6 +66,12 @@ img{
         article{
            text-align: left;
     }}
+    &__cont__image{
+        height: auto;
+        img{
+            max-width: 100%;
+        }
+    }
 }
 
 }
