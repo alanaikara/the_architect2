@@ -49,9 +49,16 @@
         font-weight: bold;
         font-size: 14px;
     }
+    li{
+        transition: background-color 0.7s ease;
+    }
     li:hover {
         background-color: #009adf;
-        color: white;
+        color: white!important;
+    }
+    a:hover {
+        //background-color: #009adf;
+        color: white!important;
     }
     ul{
         padding-top: 20px;

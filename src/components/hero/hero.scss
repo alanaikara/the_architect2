@@ -1,6 +1,7 @@
 .hero {
   background-image: url("https://www.americanfunds.com/content/dam/cgc/shared-content/images/banners/mother-holding-baby-cooing-with-aperture-banner-3.jpg");
   background-size: cover;
+  background-position: center;
   position: relative;
   display: flex;
   justify-content: center;
@@ -8,7 +9,7 @@
   margin: {
       bottom: 0;
   }
-  min-height: 30vw;
+  min-height: 28vw;
        &__image{
         position: absolute;
         right: 20px;
@@ -17,17 +18,22 @@
   h1{
       font-size: 2.1rem;
       line-height: 1.32;
+      font-weight: 700;
+      letter-spacing: .8px;
   }
   p{
-      font-size: 1.3rem;
-      line-height: 1.32;
+      font-size: 1.4rem;
+      line-height: 1.42;
+      letter-spacing: 1px;
+      font-weight: 200;
   }
   h2{
       font-size: 2rem;
   }
   &__content{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
         width: 70vw;
-        height: 10vw;
+        height: 17vw;
       //position: absolute;
       //top: 10vw;
       //left: 18vw;

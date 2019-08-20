@@ -26,19 +26,25 @@
                 font-weight: bold;
                 border-bottom: 4px solid #b42573;
             }
+          
         }
     }
     .carousel-inner{
-        max-width: 1250px;
+        max-width: 1400px;
         margin-left: auto;
-        margin-right: auto;  
+        margin-right: auto; 
+       height: 500px;
         .carousel-item.active{
-            max-width: 1260px;
+            max-width: 1400px;
             margin-left: auto;
             margin-right: auto;
-            text-align: left;
+            text-align: left; 
+             img{
+                size: 100%;
+            }
+
             article{
-                max-width: 490px;
+                max-width: 690px;
                 h1 {
                     font-size: 2rem;
                 }
