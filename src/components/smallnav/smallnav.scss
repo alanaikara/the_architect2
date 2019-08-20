@@ -111,6 +111,9 @@
     margin-right: auto;  
     background-color: black;
     height: 32px;
+    span{
+        font-style: bold;
+    }
     .col-md-4,.left,ul,li,a{
         height: inherit;
         margin: 0;
