@@ -1,6 +1,19 @@
+.navbar{
+    z-index: 9;
+}
+.navbar-brand{
+    line-height: .75;
+    font-weight: 700;
+    color: white!important;
+}
+
 .bg-light{
     background-color: transparent!important;
 }
 .navbar .navbar-collapse {
     text-align: center;
+}
+
+.nav-link{
+    color: white!important;
 }
