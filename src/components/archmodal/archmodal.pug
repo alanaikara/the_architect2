@@ -1,0 +1,19 @@
+.videomodal
+    .row.videomodal__row
+        .col-4.videomodal__col
+            h2 Watch the video presentation
+        .col-4.videomodal__col
+            .bs-example
+            // Button HTML (to Trigger Modal)
+            a.btn.btn-lg.btn-primary(href='#myModal' data-toggle='modal') Launch Demo Modal
+            // Modal HTML
+            #myModal.modal.fade
+                .modal-dialog
+                .modal-content
+                    .modal-header
+                    button.close(type='button' data-dismiss='modal' aria-hidden='true') &times;
+                    h4.modal-title YouTube Video
+                    .modal-body
+                    iframe#cartoonVideo(width='460' height='315' src='//www.youtube.com/embed/YE7VzlLtp-4?autoplay=1' frameborder='0' allowfullscreen='')
+        .col-4.videomodal__col--small
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita modi obcaecati magni reprehenderit molestias accusantium porro iusto nihil itaque nobis optio hic!

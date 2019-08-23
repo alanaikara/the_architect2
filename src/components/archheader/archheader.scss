@@ -1,10 +1,12 @@
 .navbar{
     z-index: 9;
+    position: absolute;
+    width:100%;
 }
 .navbar-brand{
     line-height: .75;
     font-weight: 700;
-    //color: white!important;
+    color: white!important;
 }
 
 .bg-light{
@@ -15,5 +17,5 @@
 }
 
 .nav-link{
-   // color: white!important;
+    color: white!important;
 }

@@ -1,0 +1,19 @@
+.videomodal{
+ 
+    &__row{
+        max-width: 800px;
+        justify-content: center;
+        margin: auto;
+        padding: 40px 5px;
+    }
+ 
+ 
+ .bs-example{
+        margin: 20px;
+    }
+    .modal-content iframe{
+        margin: 0 auto;
+        display: block;
+    }
+
+}

@@ -1,19 +1,17 @@
 .testimony{
+    width: 100%;
     background-image: radial-gradient(rgb(122, 118, 116) 5%, rgb(48, 47, 46) 15%);
     background-position:0 0;
     background-size:22px 22px;
-    height: 700px;
+    min-height: 700px;
+    height:auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    &__container{
-        max-width: 850px;
-        height: 502px;
-        margin: auto;
-
-    }
     &__center{
-        margin:0;
+        max-width: 850px;
+        min-height: 502px;
+        margin: auto;
         padding:0;
     }
     &__content{
@@ -45,3 +43,4 @@
         height: 100%;
     }
 }
+

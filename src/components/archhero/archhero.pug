@@ -1,1 +1,18 @@
-.scrool
+#carouselExampleIndicators.carousel.slide(data-ride='carousel')
+  ol.carousel-indicators.carousel__indicators
+    li.active(data-target='#carouselExampleIndicators' data-slide-to='0')
+    li(data-target='#carouselExampleIndicators' data-slide-to='1')
+    li(data-target='#carouselExampleIndicators' data-slide-to='2')
+  .carousel-inner.carousel__inner
+    .carousel-item.active.carousel__item
+      img.d-block.w-100.carousel__img(src='../hero1.jpg' alt='First slide')
+    .carousel-item.carousel__item
+      img.d-block.w-100.carousel__img(src='../hero2.jpg' alt='Second slide')
+      .carousel-caption.d-none.d-md-block
+        h5 ...
+        p ...
+    .carousel-item.carousel__item
+      img.d-block.w-100.carousel__img(src='../hero3.jpg' alt='Third slide')
+
+
+

@@ -1,0 +1,23 @@
+.vision{
+    &__column{
+        height: 354px;
+
+    }
+    &__writing{
+        background-image: radial-gradient(rgb(122, 118, 116) 5%, rgb(75, 73, 71) 15%);
+        background-position:0 0;
+        background-size:22px 22px;
+        justify-content: center;
+        align-content: center;
+    }
+    &__para{
+        color: white;
+    }
+    &__link{
+        color: white;
+    }
+    &__image{
+        padding:0;
+        
+    }
+}
