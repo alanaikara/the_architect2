@@ -34,10 +34,16 @@
 
 
 
-    @media(max-width:767px){
+    @media(max-width:576px){
         height: auto;
+        &__article{
+            padding: 30px 10px;
+            font-size: 20px; 
+            font-weight: bold;
+        }
         &__list{
             display: block;
+            max-width: 350px;
         }
     }
 

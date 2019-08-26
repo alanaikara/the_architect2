@@ -1,23 +1,32 @@
 #carouselExampleIndicators.carousel.slide(data-ride='carousel')
   ol.carousel-indicators.carousel__indicators
-    li.carousel__list.active(data-target='#carouselExampleIndicators' data-slide-to='0') 01
-    li.carousel__list(data-target='#carouselExampleIndicators' data-slide-to='1') 02 
+    li.carousel__list.active(data-target='#carouselExampleIndicators' data-slide-to='0')
+      a.carousel__number.carousel__number--1(href="#") 01
+    li.carousel__list(data-target='#carouselExampleIndicators' data-slide-to='1')
+      a.carousel__number.carousel__number--2(href="#") 02 
     li.carousel__list(data-target='#carouselExampleIndicators' data-slide-to='2') 
-      a.carousel__number(href="#") 03 
+      a.carousel__number.carousel__number--3(href="#") 03 
+    .carousel__line
+    h5.carousel__portfolio SEE OUR PORTFOLIO
+
   .carousel-inner.carousel__inner
     .carousel-item.active.carousel__item
       img.d-block.w-100.carousel__img(src='../hero1.jpg' alt='First slide')
-      .carousel-caption.d-none.d-md-block
-        h1 A fresh vision
+      .carousel-caption.d-none.d-md-block.carousel__caption
+        h1.carousel__title A fresh vision
           br
           | for living spaces
-    .carousel-item.carousel__item
+    //.carousel-item.carousel__item
       img.d-block.w-100.carousel__img(src='../hero2.jpg' alt='Second slide')
-      .carousel-caption.d-none.d-md-block
-        h5 ...
-        p ...
-    .carousel-item.carousel__item
+      .carousel-caption.d-none.d-md-block.carousel__caption
+        h1.carousel__title A fresh vision
+          br
+          | for living spaces
+    //.carousel-item.carousel__item
       img.d-block.w-100.carousel__img(src='../hero3.jpg' alt='Third slide.')
-
+      .carousel-caption.d-none.d-md-block.carousel__caption
+        h1.carousel__title A fresh vision
+          br
+          | for living spaces
 
 
