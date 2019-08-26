@@ -1,0 +1,75 @@
+ .portfolio{
+     //height: auto;
+     display: block;
+     text-align: center;
+     padding-top: 150px;
+     padding-bottom: 100px;
+&__section{
+    padding-top:100px;
+    padding-bottom: 100px;
+     display: flex;
+     align-content: center;
+     justify-content: center;
+     }
+ &__container {
+        width:800px;
+        height:600px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-template-areas:
+            "pic1 pic3 pic3 pic4"
+            "pic2 pic3 pic3 pic5"
+            "pic2 pic6 pic7 pic7";
+    }
+
+    &__pic1 {
+        grid-area: pic1;
+    }
+    &__pic2 {
+        grid-area: pic2;
+    }
+    
+    &__pic3 {
+        grid-area: pic3;
+    }
+    &__pic4 {
+        grid-area: pic4;
+    }
+    
+    &__pic5 {
+        grid-area: pic5;
+    }
+    &__pic6 {
+        grid-area: pic6;
+    }
+    
+    &__pic7 {
+        grid-area: pic7;
+    }
+    &__img{
+        height: 100%;
+        width: 100%;
+    }
+    &__link{
+        color:white;
+        background-color: rgb(31, 27, 27);
+        padding: 12px 120px;
+        text-decoration: none;
+        font-weight:300;
+        
+    }
+    @media(max-width: 767px){
+        height: 1000px;
+        padding: 5px 5px;
+        height: auto;
+        &__link{
+            padding: 8px 20vw;
+      }
+      &__section{
+          padding: 5px;
+      }
+        
+    
+    }
+ }

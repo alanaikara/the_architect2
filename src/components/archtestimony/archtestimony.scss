@@ -11,6 +11,7 @@
     &__center{
         max-width: 850px;
         min-height: 502px;
+        justify-content: center;
         margin: auto;
         padding:0;
     }
@@ -18,8 +19,8 @@
         background-color: black;
        // background-image: radial-gradient(circle at top right,  black,grey);
         background-image: radial-gradient(circle at bottom left, rgb(59, 57, 57), black);
-        height: 502px;
-        padding: 5vw 8vh;
+        height: 500px;
+        //padding: 5vw 8vh;
     }
     &__benny{
         font-size:30px;
@@ -44,3 +45,15 @@
     }
 }
 
+@media (max-width: 600px){
+    .testimony{
+    &__center{
+        padding: 40px;
+    }
+    &__content{
+        //padding:20px;
+    }
+    &__image{
+        //padding:20px;
+    }
+}}

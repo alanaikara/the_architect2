@@ -1,19 +1,25 @@
 .videomodal
     .row.videomodal__row
-        .col-4.videomodal__col
-            h2 Watch the video presentation
-        .col-4.videomodal__col
-            .bs-example
-            // Button HTML (to Trigger Modal)
-            a.btn.btn-lg.btn-primary(href='#myModal' data-toggle='modal') Launch Demo Modal
-            // Modal HTML
-            #myModal.modal.fade
-                .modal-dialog
-                .modal-content
-                    .modal-header
-                    button.close(type='button' data-dismiss='modal' aria-hidden='true') &times;
-                    h4.modal-title YouTube Video
-                    .modal-body
-                    iframe#cartoonVideo(width='460' height='315' src='//www.youtube.com/embed/YE7VzlLtp-4?autoplay=1' frameborder='0' allowfullscreen='')
-        .col-4.videomodal__col--small
-            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita modi obcaecati magni reprehenderit molestias accusantium porro iusto nihil itaque nobis optio hic!
+        .col-lg-4.col-md-4.videomodal__col
+            h3 Watch the video
+                br
+                | presentation
+        .col-lg-4.col-md-4.text-center.align-self-center.videomodal__col--btn
+            // Button trigger modal
+            button.btn.btn-lg.btn-primary.videomodal__btn(type='button' data-toggle='modal' data-target='#exampleModalCenter') &#9656
+            // Modal
+            #exampleModalCenter.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalCenterTitle' aria-hidden='true')
+                .modal-dialog.modal-dialog-centered(role='document')
+                    .modal-content
+                        .modal-header
+                            h5#exampleModalLongTitle.modal-title watch
+                            button.close(type='button' data-dismiss='modal' aria-label='Close')
+                                span(aria-hidden='true') &times;
+                        .modal-body
+                            <iframe type="text/html" src="https://www.youtube.com/embed/-ePDPGXkvlw?autoplay=1" width="100%" height="300px" frameborder="0" allow="autoplay"></iframe>
+        .col-lg-4.col-md-4.videomodal__col--small
+             p Lorem ipsum dolor sit amet, consectetu adipisicing elit,
+                br
+                | sed do eiusmod tempor incididunt ut labore et dolore
+                br
+                | magna aliqua.

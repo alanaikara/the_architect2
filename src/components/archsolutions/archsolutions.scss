@@ -9,7 +9,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     &__article{
         padding-top: 50px;
-        font-size: 30px;
+        font-size: 30px; 
         font-weight: bold;
     }
 
@@ -17,6 +17,7 @@
         padding-top:50px;
         max-width: 700px;
         margin:auto;
+        //display: block;
     }
 
     &__items{
@@ -33,7 +34,12 @@
 
 
 
-
+    @media(max-width:767px){
+        height: auto;
+        &__list{
+            display: block;
+        }
+    }
 
 
 

@@ -1,19 +1,41 @@
 .videomodal{
- 
+        height: 240px;
+        background-color: rgb(236, 235, 233);
     &__row{
         max-width: 800px;
         justify-content: center;
         margin: auto;
         padding: 40px 5px;
     }
- 
- 
- .bs-example{
-        margin: 20px;
-    }
-    .modal-content iframe{
-        margin: 0 auto;
-        display: block;
+
+    &__col{
+        display: flex;
+        align-items: center;
+        
     }
 
+    &__btn{
+        font-size: 22px;
+        border: none;
+        background-color: rgb(236, 235, 233);
+        color: black;
+        border: 2px solid;
+        border-radius: 55%;
+    }
+    
+    @media(max-width: 767px){
+        height: auto;
+        &__row{
+            display: block;
+            text-align: center;
+            
+        }
+        &__col{
+            padding: 1px !important;
+            text-align: center;
+            justify-content: center;
+        }
+      }
+    
+ 
 }
